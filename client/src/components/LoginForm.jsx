@@ -1,4 +1,3 @@
-// see SignupForm.js for comments
 
 import { useState, useEffect } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
@@ -48,7 +47,6 @@ const LoginForm = () => {
       console.error(e);
     }
 
-    // clear form values
     setUserFormData({
       email: '',
       password: '',
